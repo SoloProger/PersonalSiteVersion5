@@ -1,0 +1,44 @@
+.sidebar {
+  position: fixed;
+  background-color: #282c34;
+  height: 100%;
+  width: 22%;
+  overflow: auto;
+  border-right: 1px solid #fff;
+}
+
+.sidebar_list {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 25% auto;
+  margin-bottom: 40%;
+}
+
+.sidebar_list_item {
+  display: flex;
+  list-style-type: none;
+  font-size: 20px;
+  margin-bottom: 70px;
+  transition: 1s;
+}
+
+.sidebar_list_item::before {
+  content: "";
+  border: 1px solid #fff;
+  margin: 0 20px;
+}
+
+.link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.active_link {
+  text-decoration: none;
+  color: #1e88e5;
+}
+
+.admin_version{
+  text-align: center;
+}

@@ -25,13 +25,15 @@ color: #00A8CC;
 */
 $color: #fff;
 
-body {
-  font-family: "Roboto Mono", monospace;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #21243d;
-  background-color: $color;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 
 sup {
   background-color: chartreuse;
@@ -40,8 +42,22 @@ sup {
   text-align: center;
 }
 
-.App {
+.admin {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #282c34;
+  height: 100vh;
+}
+
+.app {
   width: 100%;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #21243d;
+  background-color: $color;
 }
 
 .button-link {
