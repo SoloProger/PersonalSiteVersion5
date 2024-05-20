@@ -4,7 +4,12 @@ const routes = [
   {
     path: '/',
     component: () => import('./site/SiteView.vue'),
-    children: [],
+    children: [
+      {
+        path: '/',
+        component: () => import('./site/pages/MainPage.vue'),
+      },
+    ],
   },
   {
     path: '/admin',
