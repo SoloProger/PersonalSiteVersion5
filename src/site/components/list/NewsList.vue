@@ -9,7 +9,7 @@ interface NewsCardProps {
 defineProps<{ news: NewsCardProps[] }>();
 </script>
 <template>
-  <div className="news-list">
+  <div class="news-list">
     <NewsCard
       v-for="(record, idx) of news"
       :key="idx"

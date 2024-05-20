@@ -6,7 +6,7 @@ import { aboutList } from '../utils/aboutList';
 
 <template>
   <main>
-    <section className="about-card">
+    <section class="about-card">
       <AboutCard
         v-for="(card, idx) of aboutList"
         :key="idx"

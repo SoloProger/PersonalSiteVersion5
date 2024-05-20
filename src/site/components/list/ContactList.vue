@@ -12,7 +12,7 @@ interface ContactCardProps {
 defineProps<{ contacts: ContactCardProps[] }>();
 </script>
 <template>
-  <div className="card__wrapper">
+  <div class="card__wrapper">
     <ContactCard
       v-for="(contact, idx) of contacts"
       :key="idx"
