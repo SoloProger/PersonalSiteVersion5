@@ -1,3 +1,10 @@
+<script setup lang="ts">
+import SidebarView from './components/SidebarView.vue';
+</script>
+
 <template>
-  <div>Admin</div>
+  <div class="admin">
+    <SidebarView />
+    <RouterView />
+  </div>
 </template>
